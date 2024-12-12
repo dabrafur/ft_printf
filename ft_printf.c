@@ -6,7 +6,7 @@
 /*   By: deabraha <deabraha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 17:41:50 by deabraha          #+#    #+#             */
-/*   Updated: 2024/12/12 12:25:00 by deabraha         ###   ########.fr       */
+/*   Updated: 2024/12/12 15:42:46 by deabraha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ int	pars(const char *format, va_list ap)
 	count = 0;
 	if (*format == 'c')
 		count += ft_putchar(va_arg(ap, int));
+	else if (*format == 's')
+		count += ft_putstr(va_arg(ap, char*));
 	return (count);
 }	
 
@@ -45,13 +47,13 @@ int	ft_printf(const char *format, ...)
 
 int	main(void)
 {
-	ft_printf("olá %c\n Tudo bem?", 'a');
-	ft_printf("olá %c\n Tudo bem?", 'a');
-	ft_printf("olá %c\n Tudo bem?", 'a');
-	ft_printf("olá %c\n Tudo bem?", 'a');
-	ft_printf("olá %c\n Tudo bem?", 'a');
-	ft_printf("olá %c\n Tudo bem?", 'a');
-	ft_printf("olá %c\n Tudo bem?", 'a');
-	ft_printf("olá %c\n Tudo bem?", 'a');
+	ft_printf("olá %c Tudo bem?\n", 'D');
+	ft_printf("olá %s Tudo bem?\n", "Débora");
+	// ft_printf("olá %c\n Tudo bem?", 'a');
+	// ft_printf("olá %c\n Tudo bem?", 'a');
+	// ft_printf("olá %c\n Tudo bem?", 'a');
+	// ft_printf("olá %c\n Tudo bem?", 'a');
+	// ft_printf("olá %c\n Tudo bem?", 'a');
+	// ft_printf("olá %c\n Tudo bem?", 'a');
 	return (0);
 }

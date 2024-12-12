@@ -6,12 +6,11 @@
 /*   By: deabraha <deabraha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/12 12:08:00 by deabraha          #+#    #+#             */
-/*   Updated: 2024/12/12 12:25:49 by deabraha         ###   ########.fr       */
+/*   Updated: 2024/12/12 15:43:04 by deabraha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
 
 int	ft_putstr(char *str)
 {
