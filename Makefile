@@ -6,13 +6,13 @@
 #    By: deabraha <deabraha@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/14 18:04:59 by deabraha          #+#    #+#              #
-#    Updated: 2024/11/14 18:05:28 by deabraha         ###   ########.fr        #
+#    Updated: 2024/12/12 12:29:09 by deabraha         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libftprintf.a
+NAME = ft_printf
 
-SRCS = 
+SRCS = ft_printf.c ft_putchar.c ft_putstr.c
 
 OBJS = $(SRCS:.c=.o)
 CC = cc
