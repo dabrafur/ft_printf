@@ -3,16 +3,16 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: deabraha <deabraha@student.42.fr>          +#+  +:+       +#+         #
+#    By: deborafurlan <deborafurlan@student.42.f    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/14 18:04:59 by deabraha          #+#    #+#              #
-#    Updated: 2024/12/12 15:49:52 by deabraha         ###   ########.fr        #
+#    Updated: 2024/12/15 00:09:35 by deborafurla      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = ft_printf
 
-SRCS = ft_printf.c ft_putchar.c ft_putstr.c
+SRCS = ft_printf.c ft_putchar.c ft_putstr.c ft_putnbr.c ft_putunbr.c
 
 OBJS = $(SRCS:.c=.o)
 CC = cc
