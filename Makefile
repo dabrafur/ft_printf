@@ -6,13 +6,13 @@
 #    By: deborafurlan <deborafurlan@student.42.f    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/14 18:04:59 by deabraha          #+#    #+#              #
-#    Updated: 2024/12/15 00:09:35 by deborafurla      ###   ########.fr        #
+#    Updated: 2024/12/15 22:59:55 by deborafurla      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = ft_printf
 
-SRCS = ft_printf.c ft_putchar.c ft_putstr.c ft_putnbr.c ft_putunbr.c
+SRCS = ft_printf.c ft_putchar.c ft_putstr.c ft_putnbr.c ft_putunbr.c ft_puthex.c ft_putuphex.c
 
 OBJS = $(SRCS:.c=.o)
 CC = cc
